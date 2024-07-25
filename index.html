@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAPTCHA</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1 class="title">CAPTCHA GENERATOR</h1>
+        </div>
+        <div  class="main">
+
+            <div id="captcha"></div>
+            <button onclick="generateCaptcha()">
+                <i class="fa-solid fa-rotate-right" ></i>
+            </button>
+        </div><br>
+        <div class="end">
+            <input type="text" id="userInput" placeholder="Enter your captcha">
+            <button id="btn" onclick="validateCaptcha()">Submit</button>
+        </div><br>
+
+        <div>
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
+
+
