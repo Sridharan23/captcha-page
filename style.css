@@ -64,8 +64,8 @@ body{
    .end{
     max-width: 400px;
    }
-   .userInput{
-    max-width: 300px;
+   .end input{
+    width: 250px;
    }
     
 }
